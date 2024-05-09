@@ -1,0 +1,7 @@
+const build = require ('./build.js')
+const build1 = new build('House')
+console.log(build1.getName())
+build1.setName('Villa')
+console.log(build1.getName())
+const build2 = new build('Home')
+console.log(build2.getName())
